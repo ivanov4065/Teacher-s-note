@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		863260A51D25886900877264 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 863260A41D25886900877264 /* main.m */; };
+		863260A81D25886900877264 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 863260A71D25886900877264 /* AppDelegate.m */; };
+		863260AB1D25886900877264 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 863260AA1D25886900877264 /* ViewController.m */; };
+		863260AE1D25886900877264 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 863260AC1D25886900877264 /* Main.storyboard */; };
+		863260B11D25886900877264 /* TeacherBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 863260AF1D25886900877264 /* TeacherBook.xcdatamodeld */; };
+		863260B31D25886900877264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 863260B21D25886900877264 /* Assets.xcassets */; };
+		863260B61D25886900877264 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 863260B41D25886900877264 /* LaunchScreen.storyboard */; };
+		863260C11D25886900877264 /* TeacherBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 863260C01D25886900877264 /* TeacherBookTests.m */; };
+		863260CC1D25886900877264 /* TeacherBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 863260CB1D25886900877264 /* TeacherBookUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		863260BD1D25886900877264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 863260981D25886900877264 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8632609F1D25886900877264;
+			remoteInfo = TeacherBook;
+		};
+		863260C81D25886900877264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 863260981D25886900877264 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8632609F1D25886900877264;
+			remoteInfo = TeacherBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		863260A01D25886900877264 /* TeacherBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeacherBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		863260A41D25886900877264 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		863260A61D25886900877264 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		863260A71D25886900877264 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		863260A91D25886900877264 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		863260AA1D25886900877264 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		863260AD1D25886900877264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		863260B01D25886900877264 /* TeacherBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TeacherBook.xcdatamodel; sourceTree = "<group>"; };
+		863260B21D25886900877264 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		863260B51D25886900877264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		863260B71D25886900877264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		863260BC1D25886900877264 /* TeacherBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeacherBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		863260C01D25886900877264 /* TeacherBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeacherBookTests.m; sourceTree = "<group>"; };
+		863260C21D25886900877264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		863260C71D25886900877264 /* TeacherBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeacherBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		863260CB1D25886900877264 /* TeacherBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeacherBookUITests.m; sourceTree = "<group>"; };
+		863260CD1D25886900877264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8632609D1D25886900877264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863260B91D25886900877264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863260C41D25886900877264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		863260971D25886900877264 = {
+			isa = PBXGroup;
+			children = (
+				863260A21D25886900877264 /* TeacherBook */,
+				863260BF1D25886900877264 /* TeacherBookTests */,
+				863260CA1D25886900877264 /* TeacherBookUITests */,
+				863260A11D25886900877264 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		863260A11D25886900877264 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				863260A01D25886900877264 /* TeacherBook.app */,
+				863260BC1D25886900877264 /* TeacherBookTests.xctest */,
+				863260C71D25886900877264 /* TeacherBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		863260A21D25886900877264 /* TeacherBook */ = {
+			isa = PBXGroup;
+			children = (
+				863260A61D25886900877264 /* AppDelegate.h */,
+				863260A71D25886900877264 /* AppDelegate.m */,
+				863260A91D25886900877264 /* ViewController.h */,
+				863260AA1D25886900877264 /* ViewController.m */,
+				863260AC1D25886900877264 /* Main.storyboard */,
+				863260B21D25886900877264 /* Assets.xcassets */,
+				863260B41D25886900877264 /* LaunchScreen.storyboard */,
+				863260B71D25886900877264 /* Info.plist */,
+				863260AF1D25886900877264 /* TeacherBook.xcdatamodeld */,
+				863260A31D25886900877264 /* Supporting Files */,
+			);
+			path = TeacherBook;
+			sourceTree = "<group>";
+		};
+		863260A31D25886900877264 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				863260A41D25886900877264 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		863260BF1D25886900877264 /* TeacherBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				863260C01D25886900877264 /* TeacherBookTests.m */,
+				863260C21D25886900877264 /* Info.plist */,
+			);
+			path = TeacherBookTests;
+			sourceTree = "<group>";
+		};
+		863260CA1D25886900877264 /* TeacherBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				863260CB1D25886900877264 /* TeacherBookUITests.m */,
+				863260CD1D25886900877264 /* Info.plist */,
+			);
+			path = TeacherBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8632609F1D25886900877264 /* TeacherBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 863260D01D25886900877264 /* Build configuration list for PBXNativeTarget "TeacherBook" */;
+			buildPhases = (
+				8632609C1D25886900877264 /* Sources */,
+				8632609D1D25886900877264 /* Frameworks */,
+				8632609E1D25886900877264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeacherBook;
+			productName = TeacherBook;
+			productReference = 863260A01D25886900877264 /* TeacherBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		863260BB1D25886900877264 /* TeacherBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 863260D31D25886900877264 /* Build configuration list for PBXNativeTarget "TeacherBookTests" */;
+			buildPhases = (
+				863260B81D25886900877264 /* Sources */,
+				863260B91D25886900877264 /* Frameworks */,
+				863260BA1D25886900877264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				863260BE1D25886900877264 /* PBXTargetDependency */,
+			);
+			name = TeacherBookTests;
+			productName = TeacherBookTests;
+			productReference = 863260BC1D25886900877264 /* TeacherBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		863260C61D25886900877264 /* TeacherBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 863260D61D25886900877264 /* Build configuration list for PBXNativeTarget "TeacherBookUITests" */;
+			buildPhases = (
+				863260C31D25886900877264 /* Sources */,
+				863260C41D25886900877264 /* Frameworks */,
+				863260C51D25886900877264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				863260C91D25886900877264 /* PBXTargetDependency */,
+			);
+			name = TeacherBookUITests;
+			productName = TeacherBookUITests;
+			productReference = 863260C71D25886900877264 /* TeacherBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		863260981D25886900877264 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Roman Ivaniv";
+				TargetAttributes = {
+					8632609F1D25886900877264 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					863260BB1D25886900877264 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8632609F1D25886900877264;
+					};
+					863260C61D25886900877264 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8632609F1D25886900877264;
+					};
+				};
+			};
+			buildConfigurationList = 8632609B1D25886900877264 /* Build configuration list for PBXProject "TeacherBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 863260971D25886900877264;
+			productRefGroup = 863260A11D25886900877264 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8632609F1D25886900877264 /* TeacherBook */,
+				863260BB1D25886900877264 /* TeacherBookTests */,
+				863260C61D25886900877264 /* TeacherBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8632609E1D25886900877264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863260B61D25886900877264 /* LaunchScreen.storyboard in Resources */,
+				863260B31D25886900877264 /* Assets.xcassets in Resources */,
+				863260AE1D25886900877264 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863260BA1D25886900877264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863260C51D25886900877264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8632609C1D25886900877264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863260AB1D25886900877264 /* ViewController.m in Sources */,
+				863260A81D25886900877264 /* AppDelegate.m in Sources */,
+				863260A51D25886900877264 /* main.m in Sources */,
+				863260B11D25886900877264 /* TeacherBook.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863260B81D25886900877264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863260C11D25886900877264 /* TeacherBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863260C31D25886900877264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863260CC1D25886900877264 /* TeacherBookUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		863260BE1D25886900877264 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8632609F1D25886900877264 /* TeacherBook */;
+			targetProxy = 863260BD1D25886900877264 /* PBXContainerItemProxy */;
+		};
+		863260C91D25886900877264 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8632609F1D25886900877264 /* TeacherBook */;
+			targetProxy = 863260C81D25886900877264 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		863260AC1D25886900877264 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				863260AD1D25886900877264 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		863260B41D25886900877264 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				863260B51D25886900877264 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		863260CE1D25886900877264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		863260CF1D25886900877264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		863260D11D25886900877264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TeacherBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roman.TeacherBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		863260D21D25886900877264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TeacherBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roman.TeacherBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		863260D41D25886900877264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TeacherBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roman.TeacherBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeacherBook.app/TeacherBook";
+			};
+			name = Debug;
+		};
+		863260D51D25886900877264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TeacherBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roman.TeacherBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeacherBook.app/TeacherBook";
+			};
+			name = Release;
+		};
+		863260D71D25886900877264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TeacherBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roman.TeacherBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TeacherBook;
+			};
+			name = Debug;
+		};
+		863260D81D25886900877264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TeacherBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roman.TeacherBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TeacherBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8632609B1D25886900877264 /* Build configuration list for PBXProject "TeacherBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				863260CE1D25886900877264 /* Debug */,
+				863260CF1D25886900877264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		863260D01D25886900877264 /* Build configuration list for PBXNativeTarget "TeacherBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				863260D11D25886900877264 /* Debug */,
+				863260D21D25886900877264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		863260D31D25886900877264 /* Build configuration list for PBXNativeTarget "TeacherBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				863260D41D25886900877264 /* Debug */,
+				863260D51D25886900877264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		863260D61D25886900877264 /* Build configuration list for PBXNativeTarget "TeacherBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				863260D71D25886900877264 /* Debug */,
+				863260D81D25886900877264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		863260AF1D25886900877264 /* TeacherBook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				863260B01D25886900877264 /* TeacherBook.xcdatamodel */,
+			);
+			currentVersion = 863260B01D25886900877264 /* TeacherBook.xcdatamodel */;
+			path = TeacherBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 863260981D25886900877264 /* Project object */;
+}
