@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RIBNotationViewController.h
 //  TeacherBook
 //
 //  Created by Roman Ivaniv on 30.06.16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface RIBNotationViewController : UIViewController
 
 @end
-

@@ -1,17 +1,15 @@
 //
-//  AppDelegate.h
+//  RIBCoreDataStack.h
 //  TeacherBook
 //
 //  Created by Roman Ivaniv on 30.06.16.
 //  Copyright © 2016 Roman Ivaniv. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface RIBCoreDataManager : NSObject
 
 @property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 @property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
@@ -21,5 +19,6 @@
 - (NSURL *)applicationDocumentsDirectory;
 
 
-@end
++ (instancetype)coreDataManager;
 
+@end

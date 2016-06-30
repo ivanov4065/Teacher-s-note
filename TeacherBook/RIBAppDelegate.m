@@ -6,13 +6,13 @@
 //  Copyright © 2016 Roman Ivaniv. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "RIBAppDelegate.h"
 
-@interface AppDelegate ()
+@interface RIBAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation RIBAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
